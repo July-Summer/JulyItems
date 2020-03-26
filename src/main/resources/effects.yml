@@ -1,0 +1,2 @@
+example:
+  - straight VILLAGER_HAPPY {x},{y}+1,{z} {x},{y}+1,{z}
