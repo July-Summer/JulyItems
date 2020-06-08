@@ -25,8 +25,8 @@
 /julyitem <itemID> removePotion <药水>   移除物品的药水效果
 /julyitem <itemID> addDrop <生物种类> <几率>  添加掉落
 /julyitem <itemID> removeDrop <生物种类>  移除掉落
-/julyitem <itemID> addFlag <ItemFlag>  为物品添加ItemFlag
-/julyitem <itemID> removeFlag <ItemFlag>  移除物品的ItemFlag
+/julyitem <itemID> addFlag <ItemFlag>  为物品添加ItemFlag #该版本尚未上传
+/julyitem <itemID> removeFlag <ItemFlag>  移除物品的ItemFlag #该版本尚未上传
 /julyitem <itemID> setRecipe <合成几率>  设置该物品的合成表, 如果需要删除请在合成几率输入任意字符
   
 # 物品技能
@@ -40,7 +40,7 @@
 /julyitem <itemID> addSkill blinding <触发方式> <触发目标> <几率> <持续时间> <持续等级>  添加致盲技能
 /julyitem <itemID> addSkill light <触发方式> <触发目标> <几率> <伤害>  添加闪电技能
 /julyitem <itemID> addSkill recoil <触发方式> <触发对象> <退后倍数> <冷却>  添加退后技能(用作后坐力或弹跳)
-/julyitem <itemID> addSkill chain <直线距离>  添加连锁挖矿技能
+/julyitem <itemID> addSkill chain <直线距离>  添加连锁挖矿技能 #该版本尚未上传
 /julyitem <itemID> addSkill ignite <触发方式> <触发对象> <几率> <持续时间:秒>  添加点燃技能
 /julyitem <itemID> removeSkill <触发方式> <技能>   移除物品的技能
   
@@ -57,14 +57,14 @@ LEFT_CLICK(左键)
 RIGHT_CLICK(右键)
 FIRST_HELD(首次手持)
 LAST_HELD(持续手持)
-ATTACK(攻击玩家和生物)
-ATTACK_PLAYER(攻击玩家)
-ATTACK_ENTITY(攻击生物)
-GET_DAMAGE(受到伤害)
-GET_ENTITY_DAMAGE(受到生物伤害)
-GET_PLAYER_DAMAGE(受到玩家伤害)
-BREAK_BLOCK(破坏方块时)
-    
+ATTACK(攻击玩家和生物) #该版本尚未上传
+ATTACK_PLAYER(攻击玩家) #该版本尚未上传
+ATTACK_ENTITY(攻击生物) #该版本尚未上传
+GET_DAMAGE(受到伤害) #该版本尚未上传
+GET_ENTITY_DAMAGE(受到生物伤害) #该版本尚未上传
+GET_PLAYER_DAMAGE(受到玩家伤害) #该版本尚未上传
+BREAK_BLOCK(破坏方块时) #该版本尚未上传
+
  # 药水
  
  https://github.com/July-Summer/JulyItems/blob/master/src/main/resources/potion_chinese.json
@@ -72,4 +72,6 @@ BREAK_BLOCK(破坏方块时)
  # 附魔
  
 https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+
+很抱歉思路出了点问题, 导致插件放了几个月 最后再回来看就很懵逼, 写有#该版本尚未上传的都是2.0的功能 我会尽快解决
   
