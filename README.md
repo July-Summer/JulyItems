@@ -71,5 +71,5 @@ BREAK_BLOCK(破坏方块时)
  
  # 附魔
  
-
+https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
   
