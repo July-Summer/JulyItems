@@ -32,7 +32,7 @@
 # 物品技能
 
 /julyitem <itemID> addSkill firearrow <触发方式> <触发目标> <伤害> <冷却>  添加火箭技能
-/julyitem <itemID> addSkill teleport <触发方式> <触发目标> <传送距离> <冷却>  添加传送技能
+/julyitem <itemID> addSkill teleport <触发方式> <触发目标> <传送距离> <冷却>  添加传送技能 
 /julyitem <itemID> addSkill <触发方式> <触发目标> instantkill <几率>  添加瞬杀技能
 /julyitem <itemID> addSkill fireball <触发方式> <触发目标> <伤害> <冷却>  添加火球技能
 /julyitem <itemID> addSkill cmd <触发方式> <是否OP权限执行> <冷却> <命令>  添加执行命令 true为是 false 为否 {player}为玩家变量
