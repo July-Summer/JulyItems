@@ -65,6 +65,15 @@ GET_ENTITY_DAMAGE(受到生物伤害) #该版本尚未上传
 GET_PLAYER_DAMAGE(受到玩家伤害) #该版本尚未上传
 BREAK_BLOCK(破坏方块时) #该版本尚未上传
 
+  # 触发对象
+PLAYER (玩家)
+EVENT_ENTITY, (事件生物)
+RANDOM_SERVER_PLAYER,(服务期内随机玩家)
+RANDOM_WORLD_PLAYER,(世界内随机玩家)
+RANDOM_NEARBY_ENTITY,(附近随机生物)
+RANDOM_NEARBY_PLAYER,(附近随机玩家)
+NEARBY_ENTITY,(附近所有生物)
+NEARBY_PLAYER;(附近所有玩家)
  # 药水
  
  https://github.com/July-Summer/JulyItems/blob/master/src/main/resources/potion_chinese.json
@@ -73,5 +82,5 @@ BREAK_BLOCK(破坏方块时) #该版本尚未上传
  
 https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
 
-很抱歉思路出了点问题, 导致插件放了几个月 最后再回来看就很懵逼, 写有#该版本尚未上传的都是2.0的功能 我会尽快解决
+很抱歉思路出了点问题, 导致插件放了几个月 最后再回来看就很懵逼, 写有#a该版本尚未上传的都是2.0的功能 我会尽快解决
   
